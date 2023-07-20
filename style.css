@@ -1,0 +1,91 @@
+body {
+  background-image: url("https://tenor.com/view/awesome-gif-gif-11737211054536038133.gif");
+  font-family: sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  text-size-adjust: auto;
+}
+
+.container {
+  padding: auto;
+  margin-inline: 5% 10%;
+  writing-mode: horizontal-tb;
+  margin: 0 auto;
+  width: 900px;
+
+}
+
+.card-1 {
+  background: lightgray;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  margin-bottom: 30px;
+  text-size-adjust: 10%;
+  border-radius: 5px;
+}
+
+.card-2 {
+  background-color: rgb(238, 223, 223);
+  background: lightgrey;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.card-3 {
+  background-color: gray;
+  background: white;
+  color: red;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  align-content: center;
+  display: inline-block;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+
+ul {
+  display: inline-block;
+  padding: 0px 0px;
+  width: 50px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 20px;
+  align-content: center;
+}
+
+img {
+  vertical-align: none;
+}
+
+ul {
+  float: left;
+  margin-right: 20px;
+}
+
+li {
+  display: block;
+}
+
+@media (max-width: 960px) {
+
+  .container {
+    width: 700px;
+  }
+}
+
+a:hover {
+
+}

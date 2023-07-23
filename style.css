@@ -6,28 +6,71 @@
 /* Colors and fonts */
 body {
   background-image: url("https://marketingaccesspass.com/wp-content/uploads/2015/10/Podcast-Website-Design-Background-Image.jpg");
-  background-repeat:repeat-y;
-  color: #575f7d;
+  background-repeat: repeat-y center/80%;
+  color: black;
   font-family: "Lora", serif;
   font-size: 17px;
   font-weight: lighter;
 }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 auto;
+  background-color: lightgray;
+  background-image: radial-gradient(
+    circle at center,
+    white 0%,
+    rgb(152, 152, 203) 50%,
+    white 100%
+  );
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.box-1 {
+  margin: 20px;
+  padding-top: 30px;
+  border-radius: 12px;
+  border-style: ridge;
+  border-color: brown;
+}
+
+.box-2 {
+  margin: 20px;
+  padding: 20px;
+  border-top:1px;
+  border-style: ridge;
+  border-color: brown;
+  border-radius: 5px;
+}
+
 h1,
 h2,
 h3 {
   font-family: "Roboto", sans-serif;
 }
 h1 {
-  color: #575f7d;
-  font-size: 32px;
+  color: rgb(115, 44, 44);
+  font-size: 25px;
   font-weight: 900;
 }
 h2 {
-  color: #7ece90;
+  color: rgb(115, 44, 44);
   font-size: 20px;
   font-weight: lighter;
   font-weight: 500;
 }
+
+h3 {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  font-weight: 500;
+  margin: auto;
+}
+
 a {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
@@ -37,4 +80,30 @@ a {
 }
 a:hover {
   color: black;
+}
+
+#circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  overflow: hidden;
+  align-items: center;
+  display: block;
+  margin: auto;
+}
+
+li img {
+  width: 20px;
+  display: inline;
+}
+ul {
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+ul {
+  list-style-type: none;
 }
